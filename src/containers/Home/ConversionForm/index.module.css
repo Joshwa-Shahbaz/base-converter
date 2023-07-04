@@ -1,0 +1,55 @@
+/* Styling for select from type */
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.label {
+  font-size: 32px;
+  margin-right: 10px;
+}
+.labeltwo {
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.flex select {
+  padding: 5px;
+  font-size: 25px;
+  width: 500px;
+}
+
+@media (max-width: 1200px) {
+  .flex {
+    flex-direction: column;
+  }
+  .check {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .labeltwo {
+    font-size: 32px;
+    margin-right: 50px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .check {
+    padding: 5px;
+  }
+  .label {
+    font-size: 28px !important;
+    margin-right: 10px;
+  }
+  .flex select {
+    padding: 5px;
+    font-size: 20px !important;
+    width: 380px;
+  }
+  .labeltwo {
+    font-size: 28px !important;
+    margin-right: 40px !important;
+  }
+}

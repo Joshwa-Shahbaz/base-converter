@@ -1,0 +1,16 @@
+.header {
+  background-color: #001c30;
+  height: 70px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  line-height: 80px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .head {
+    font-size: 28px !important;
+  }
+}
