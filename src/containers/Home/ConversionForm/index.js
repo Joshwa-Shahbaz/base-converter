@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import styles from "./index.module.css";
 
 // Components
-import EnterValue from "./EnterValue/EnterValue";
+import EnterValue from "./EnterValue";
 
 // Content
 import { conversionOptions } from "./Content";
@@ -48,6 +48,7 @@ const ConversionFrom = () => {
             </select>
           </div>
         </div>
+        
         <EnterValue convertFrom={convertFrom} convertTo={convertTo} />
       </form>
     </>
