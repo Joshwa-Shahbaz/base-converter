@@ -3,9 +3,8 @@ import React, { useEffect, useState } from "react";
 // Styles
 import styles from "./index.module.css";
 
-// content
-
-import useConversion from "./useConversion";
+// Hooks
+import useConversion from "../../../../hooks/useConversion";
 
 const EnterValue = ({ convertFrom, convertTo }) => {
   const [enteredNumber, setEnteredNumber] = useState(0);
